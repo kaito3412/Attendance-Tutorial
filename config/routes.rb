@@ -1,5 +1,3 @@
-Rails.application.routes.draw do
-  get 'static_pages/top'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-end
+<% provide(:title, "") %>
+<h1>勤怠管理システム</h1>
+<p>このアプリケーションでは、登録されたユーザーの勤怠情報を閲覧・登録・編集することができます。</p>
